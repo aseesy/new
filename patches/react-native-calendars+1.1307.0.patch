@@ -1,0 +1,31 @@
+diff --git a/node_modules/react-native-calendars/src/expandableCalendar/index.js b/node_modules/react-native-calendars/src/expandableCalendar/index.js
+index fe7025d..089d4fb 100644
+--- a/node_modules/react-native-calendars/src/expandableCalendar/index.js
++++ b/node_modules/react-native-calendars/src/expandableCalendar/index.js
+@@ -410,15 +410,15 @@ const ExpandableCalendar = (props) => {
+ };
+ export default ExpandableCalendar;
+ ExpandableCalendar.displayName = 'ExpandableCalendar';
+-ExpandableCalendar.defaultProps = {
+-    horizontal: true,
+-    initialPosition: Positions.CLOSED,
+-    firstDay: 0,
+-    leftArrowImageSource: LEFT_ARROW,
+-    rightArrowImageSource: RIGHT_ARROW,
+-    allowShadow: true,
+-    openThreshold: PAN_GESTURE_THRESHOLD,
+-    closeThreshold: PAN_GESTURE_THRESHOLD,
+-    closeOnDayPress: true
+-};
++// ExpandableCalendar.defaultProps = {
++//     horizontal: true,
++//     initialPosition: Positions.CLOSED,
++//     firstDay: 0,
++//     leftArrowImageSource: LEFT_ARROW,
++//     rightArrowImageSource: RIGHT_ARROW,
++//     allowShadow: true,
++//     openThreshold: PAN_GESTURE_THRESHOLD,
++//     closeThreshold: PAN_GESTURE_THRESHOLD,
++//     closeOnDayPress: true
++// };
+ ExpandableCalendar.positions = Positions;
